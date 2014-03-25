@@ -1,0 +1,78 @@
+#layer-2{
+	width: 300px;
+	margin:20% 33%;
+    position: absolute; /* For the submit button positioning */
+	background:#143FDC;
+	padding: 10px;
+    //overflow:auto;
+   // border-radius: 10px;  
+}
+.form-1 .field {
+position: relative;
+}
+.form-1 input[type=text],
+.form-1 input[type=password] {
+    margin-left:10px;
+    width: 90%;
+	padding: 10px 10px 10px 15px;
+	transition: color 1s ease-out 0.5s;
+	/*text*/
+	font-size: 16px;
+	text-shadow: 1px 1px 0px #4B1638;
+	font-family: 'Lato', Calibri, Arial, sans-serif;
+	color: #6363E0;
+	/*style*/
+	 border: none;
+	box-shadow: inset -1px 0px 5px #586877;
+
+	//border-radius: 3px;
+    background: #D7EBFC;	
+}
+
+.form-1 .submit{
+	/*size*/
+	width: 60px;
+	height:60px;
+	position: absolute;
+	top: 19px;
+	right: 6px;
+	padding: 8px;
+	
+	z-index: 2;
+	 /* Styles */
+    background: #143FDC;
+    border-radius: 50%;
+
+}
+.form-1 input[type=submit]{
+    width: 99%;
+	height: 99%;
+	margin-top: 1px;
+	margin-left: 1px;
+	border: medium none;
+	border-radius:50%;
+	background:url(images/icon.jpg);
+	background-repeat: no-repeat;   
+    background-position: center;   
+    background-color: #FFFFFF;
+} 
+
+
+
+.submit:hover{
+background-color:#6FA3FC;
+
+}
+.submit:focus{
+background-color:#002565;
+}
+#restore-1{
+   position:absolute;
+   top:125px;
+   left:220px;
+   font-family: tahoma,arial,verdana,sans-serif,Lucida Sans;
+   font-size: 11px;
+   line-height: 1.182;
+   font-weight: normal;
+}
+
